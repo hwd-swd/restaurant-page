@@ -1,1 +1,1 @@
-alert("hi");
+(()=>{"use strict";console.log("load home"),console.log("loading")})();
