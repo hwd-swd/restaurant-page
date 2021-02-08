@@ -1,7 +1,10 @@
-import {loadHome} from './modules/homePage'
+import {createNav} from './modules/homePage'
 
 function pageLoad(){
-    loadHome();
+    
+    createNav();
+    
+
     console.log('loading');
 }
 
