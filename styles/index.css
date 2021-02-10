@@ -129,6 +129,50 @@ html{
     border: 1px solid white;
 }
 
+.header{
+    font-size: 700%;
+    color: white;
+}
+
 #items{
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    width: 100%;
+}
+
+#items h1{
+    color: black;
+    font-size: 250%;
+    margin: 2rem auto;
+}
+
+.full{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.full img{
+    height:50%;
+    width:auto;
+}
+
+.submenu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:3rem;
+    background-color: white;
+    width:100%;
+}
+
+#submenuTitle{
+    font-size: 250%;
+    color: black;
+}
+
+.item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
