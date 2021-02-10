@@ -36,6 +36,9 @@ function createNav(){
 }
 
 function createHome(){
+    let content = document.querySelector('#content');
+    content.style.backgroundImage = 'url(../dist/imgs/pastries.jpg';
+
     let main = document.createElement('div');
     main.setAttribute('id','main');
     main.setAttribute('class','hiding');

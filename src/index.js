@@ -32,14 +32,9 @@ function pageLoad(){
     let content = document.querySelector('#content');
     let navBar = createNav();
     let home = createHome();
-    let menu = createMenu();
-    let story, visit;
-    // let story = createStory();
-    // let visit = createVisit();
 
     content.appendChild(navBar);
     content.appendChild(home);
-    content.appendChild(menu);
     
     const links = document.querySelectorAll('.link');
     links.forEach(link=>link.addEventListener('click',(e)=>
