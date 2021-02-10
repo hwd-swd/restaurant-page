@@ -12,9 +12,12 @@ function createVisit(){
 
     let items = document.createElement('div');
     items.setAttribute('id','items')
+    
     visit.appendChild(items);
+
 
     return visit
 }
+
 
 export {createVisit}

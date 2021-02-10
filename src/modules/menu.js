@@ -67,6 +67,76 @@ function createMenu(){
     teaDescription2.textContent='A freshly pressed expresso with condensed milk served hot.';
     beverage4.appendChild(teaDescription2);
 
+    //////////////////////////////
+
+    let header2 = document.createElement('h1');
+    header2.setAttribute('class','header');
+    header2.textContent="Desserts";
+    menu.appendChild(header2);
+    header2.style.backgroundImage = 'url(../dist/imgs/macarons.jpg';
+    header2.style.backgroundSize = 'cover';
+
+    let dessertsContainer = document.createElement('div');
+    dessertsContainer.setAttribute('class','submenu');
+    
+
+    menu.appendChild(dessertsContainer)
+
+    
+
+    // let beverageTitle = document.createElement('h1');
+    // beverageTitle.textContent="Beverages";
+    // beverageTitle.setAttribute('id','submenuTitle');
+    // dessertsContainer.appendChild(beverageTitle);
+
+    let dessert1=document.createElement('div');
+    dessert1.setAttribute('class','item');
+    dessertsContainer.appendChild(dessert1);
+
+    let dessertName = document.createElement('h2');
+    dessertName.textContent='Macarons';
+    dessert1.appendChild(dessertName);
+
+    let dessertDescription = document.createElement('h3');
+    dessertDescription.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ';
+    dessert1.appendChild(dessertDescription);
+    
+    let dessert2=document.createElement('div');
+    dessert2.setAttribute('class','item');
+    dessertsContainer.appendChild(dessert2);
+
+    let dessertName2 = document.createElement('h2');
+    dessertName2.textContent='Mille Feulle Crepe Cake';
+    dessert2.appendChild(dessertName2);
+
+    let dessert2Description = document.createElement('h3');
+    dessert2Description.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    dessert2.appendChild(dessert2Description);
+
+    let dessert3=document.createElement('div');
+    dessert3.setAttribute('class','item');
+    dessertsContainer.appendChild(dessert3);
+    
+    let dessertName3 = document.createElement('h2');
+    dessertName3.textContent='Croissant';
+    dessert3.appendChild(dessertName3);
+
+    let dessert3Description = document.createElement('h3');
+    dessert3Description.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    dessert3.appendChild(dessert3Description);
+
+    let dessert4=document.createElement('div');
+    dessert4.setAttribute('class','item');
+    dessertsContainer.appendChild(dessert4);
+    
+    let dessert4Name = document.createElement('h2');
+    dessert4Name.textContent='Cupcakes';
+    dessert4.appendChild(dessert4Name);
+
+    let dessert4Description = document.createElement('h3');
+    dessert4Description.textContent='Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Nisl suscipit adipiscing bibendum est ultricies.';
+    dessert4.appendChild(dessert4Description);
+
     return menu
 }
 
