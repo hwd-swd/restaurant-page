@@ -1,4 +1,4 @@
-import {createNav,createHome} from './modules/homePage'
+import {createNav,createHome,createFooter} from './modules/homePage'
 import {createMenu} from './modules/menu'
 import {createVisit} from './modules/visit'
 import {createStory} from './modules/story'
@@ -35,7 +35,7 @@ function pageLoad(){
 
     content.appendChild(navBar);
     content.appendChild(home);
-    
+
     const links = document.querySelectorAll('.link');
     links.forEach(link=>link.addEventListener('click',(e)=>
     {toggleActive(e.target.textContent)}));

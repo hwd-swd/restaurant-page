@@ -68,6 +68,4 @@ function createHome(){
     return main
 }
 
-
-
 export {createNav,createHome}
